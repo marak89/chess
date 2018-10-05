@@ -1,9 +1,9 @@
 console.log('Welcome to Chess!');
 
 var chessboard = '';
-
-for(var h=1;h<=8;h++){
-    for(var v=1;v<=8;v++){
+var size = 8;
+for(var h=1;h<=size;h++){
+    for(var v=1;v<=size;v++){
         if(h%2===0){
             if(v%2===0){
                 chessboard += '#';
